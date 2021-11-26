@@ -15,4 +15,13 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+// for()
+let sumOfPurchase;
+let finalMessage;
+if(((PHONE_PRICE + ACCESSORY_PRICE) < SPENDING_THRESHOLD)){
+    sumOfPurchase = PHONE_PRICE + ACCESSORY_PRICE + TAX_RATE;
+    finalMessage = "$" + sumOfPurchase;
+    // if()
+}
+
 // ⛑ Answer of the above will `$334.76`.
